@@ -59,6 +59,7 @@ a:active{
 
 .main-container{
     height:120vh;
+    /* background: green; */
 }
 
 .header-container{
@@ -121,4 +122,12 @@ a:active{
     left: 0;
     background: #ffffff52;
     transform: translate(50%, 50%);
+}
+
+.back-to-home{
+    position: absolute;
+    bottom: 20%;
+    left: 45%;
+    background: transparent;
+    width: 200px;
 }
