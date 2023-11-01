@@ -1,12 +1,47 @@
-<html>
- <body>
- My Portfolio!
- </body>
- <script>
-    function hello(){
-        alert('Thank you for watching. You would be kind enought to leave me a feedback')
-        
-    }
-    window.onload = hello;
- </script>
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 9</title>
+    <style>
+        .js{
+            text-align: center;
+            
+            padding: 30px;
+            margin-bottom: 15px;
+        }
+        #click-me{
+            font-size: 40px;
+            background-color: rgba(127, 255, 212, 0.403);
+            border: solid 3px #000;
+        }
+        body{
+            background-color:darkslategray
+        }
+        .home{
+            text-align: center;
+            margin-top: 400px;
+            
+        }
+        .home button{
+            font-size: 2rem;
+            background-color: rgba(136, 131, 131, 0.722);
+            padding: 5px 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="js">
+    <button id="click-me" onclick="clicked()">Click Me</button>
+    </div>
+    <div class="home">
+        <a href="index.html">
+            <button> Home page</button>
+        </a>
+    </div>
+</body>
+<script src="./hello.js"></script>
+</html>
